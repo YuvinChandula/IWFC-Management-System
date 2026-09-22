@@ -8,13 +8,7 @@ import com.iwfc.repository.Repository;
 
 import java.util.List;
 
-/**
- * Service: EquipmentService
- * 
- * Purpose:
- * Coordinates equipment inventory tracking, machine lifecycle changes,
- * and usage logging to trigger preventative maintenance warnings.
- */
+
 public class EquipmentService {
     // Injected generic repository for Equipment
     private final Repository<Equipment> equipmentRepo;

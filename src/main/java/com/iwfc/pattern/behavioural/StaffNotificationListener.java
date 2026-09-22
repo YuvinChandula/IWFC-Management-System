@@ -8,10 +8,9 @@ public class StaffNotificationListener implements MaintenanceObserver {
     public StaffNotificationListener(String recipientName) {
         this.recipientName = recipientName;
     }
-
     @Override
     public void onStatusUpdate(MaintenanceRequest request, String message) {
-        System.out.println(String.format("ðŸ”” [NOTIFICATION FOR %s]: Ticket #%s (Equip ID: %s) -> %s [Status: %s]",
+        System.out.println(String.format(">> [STAFF NOTIFICATION - %s]: Ticket #%s (Equip ID: %s) -> %s [Status: %s]",
                 recipientName.toUpperCase(), request.getRequestId(), request.getEquipmentId(), message, request.getStatus()));
     }
 }

@@ -2,21 +2,7 @@ package com.iwfc.pattern.creational;
 
 import com.iwfc.model.Equipment;
 
-/**
- * Creational Design Pattern: Factory Method
- * 
- * Purpose:
- * Encapsulates and standardizes object instantiation for various equipment types.
- * Automatically configures category-specific preventative maintenance thresholds:
- * - Treadmill: 150 hours threshold
- * - Spin Bike: 100 hours threshold
- * - Rowing Machine: 120 hours threshold
- * - Generic/Other: 200 hours threshold
- * 
- * OOP Concept:
- * - Decouples object instantiation from business services.
- * - Client code doesn't need to know individual machine maintenance thresholds.
- */
+
 public class EquipmentFactory {
 
     /**

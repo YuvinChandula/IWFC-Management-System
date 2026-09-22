@@ -5,18 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Entity: Session
- * 
- * Purpose:
- * Represents a scheduled fitness class (e.g. HIIT, Yoga, Spin).
- * Maintains time slots, assigned studio room, required equipment,
- * and a collection of booked members.
- * 
- * OOP Principles & Collections:
- * - Uses List<String> to hold member IDs.
- * - Enforces Defensive Copying via Collections.unmodifiableList to prevent external tampering.
- */
+
 public class Session {
     private final String sessionId;            // Unique session code (e.g., "SESS-01")
     private final String title;                // Class title (e.g., "Morning HIIT")

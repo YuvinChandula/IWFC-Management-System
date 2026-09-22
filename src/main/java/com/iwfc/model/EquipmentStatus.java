@@ -3,7 +3,7 @@ package com.iwfc.model;
 /**
  * Enum: EquipmentStatus
  * 
- * Purpose:
+ * 
  * Represents the lifecycle stages of gym machines and devices.
  * Used by Equipment Tracking and Maintenance workflows.
  */

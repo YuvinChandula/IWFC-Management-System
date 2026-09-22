@@ -1,12 +1,12 @@
 package com.iwfc.model;
 
 /**
- * Entity: Equipment
  * 
- * Purpose:
+ * 
+ * 
  * Represents gym equipment with usage tracking for preventative maintenance.
  * 
- * OOP Principles Demonstrated:
+ * 
  * - Encapsulation: State is protected; status and hours change only via defined methods.
  */
 public class Equipment {

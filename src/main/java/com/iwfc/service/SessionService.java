@@ -8,13 +8,7 @@ import com.iwfc.repository.Repository;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Service: SessionService
- * 
- * Purpose:
- * Manages session scheduling, capacity management, and strict double-booking
- * conflict detection for studio rooms and assigned equipment.
- */
+
 public class SessionService {
     private final Repository<Session> sessionRepo;
 
